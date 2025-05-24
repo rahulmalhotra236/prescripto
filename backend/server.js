@@ -17,7 +17,7 @@ connectCloudinary()
 app.use(express.json())
 app.use(
   cors({
-    origin: ["https://prescripto-zeta-ruby.vercel.app/"],
+    origin: ["https://prescripto-zeta-ruby.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true,
   })
